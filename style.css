@@ -1,0 +1,44 @@
+:root{
+    --color-name:#7D7D7D;
+    --color-text:#626262;
+    --color-title:#B4AD9E;
+}
+ul{
+    list-style-type: none;
+}
+.header_link{
+    font-size: 14px;
+    font-family: Playfair Display;
+    color:var(--color-name);
+    text-decoration: none;
+}
+.picture_name{
+    color: var(--color-title);
+    font-size: 14px;
+    font-family: Ubuntu;
+    font-weight: 300;
+}
+.picture_title{
+    color: var(--color-text);
+font-size: 30px;
+font-family: Playfair Display;
+}
+.picture_desc{
+    color: var(--color-text);
+font-size: 14px;
+font-family: Playfair Display;
+}
+.header_link:hover{
+    color: #03A9F4;
+
+}
+.picture_btn{
+    width: 165px;
+height: 60px;
+border: 1px solid var(--color-text);
+background-color: rgba(0, 0, 0, 0);
+color: var(--color-text);
+font-size: 14px;
+font-family: Playfair Display;
+cursor: pointer;
+}
